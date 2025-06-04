@@ -1,0 +1,9 @@
+{
+  "name": "monitoramento-iot-6salas",
+  "version": "1.0.0",
+  "type": "module",
+  "dependencies": {
+    "mqtt": "^5.4.0",
+    "dotenv": "^16.3.1"
+  }
+}

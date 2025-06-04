@@ -1,0 +1,52 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #f6f9fc;
+  color: #222;
+  padding: 30px;
+  margin: 0;
+}
+h1 {
+  text-align: center;
+  margin-bottom: 32px;
+  color: #2b689c;
+}
+.salas {
+  display: flex;
+  flex-direction: row;
+}
+.sala-block {
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0 2px 10px #aac8e640;
+  padding: 20px 28px;
+  margin-bottom: 22px;
+  max-width: 360px;
+  margin-left: auto;
+  margin-right: auto;
+}
+h2 {
+  margin-top: 0;
+  color: #2b689c;
+  text-align: center;
+}
+p {
+  margin: 8px 0;
+  font-size: 1.08em;
+}
+.controls {
+  margin-top: 14px;
+  display: flex;
+  gap: 8px;
+  justify-content: center;
+}
+button {
+  border: none;
+  border-radius: 5px;
+  padding: 6px 16px;
+  font-weight: 500;
+  font-size: 1em;
+  cursor: pointer;
+  transition: background .2s;
+}
+.btn-on { background: #23b26e; color: #fff; }
+.btn-off { background: #d12424; color: #fff; }
